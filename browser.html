@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>带表单的导航条</title>
+<!-- <title>带表单的导航条</title> -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <style type="text/css">
 	body{
@@ -19,10 +19,10 @@
 	#carousel-example-generic img{
 		width: 100%;
 		}
-	
+
 	#carousel-example-generic{
 		padding-top: 50px;
-	}	
+	}
 	@media only screen and (max-width:768px){
 		#carousel-example-generic img{
 			width: 100%;
@@ -36,14 +36,14 @@
 		    font-size: 16px;
 		    line-height: 1.4;
 		}
-		
+
 	}
 	@media only screen and (min-width:768px){
 		.carousel .item{
 			width: 100%;
 			height: 500px;
 		}
-		
+
 	}
 	.carousel-caption{
 		margin-bottom: 20px;
@@ -91,7 +91,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="demo-navbar">
-      
+
       <ul class="nav navbar-nav">
         <li class="active"><a href="#carousel-example-generic">综述 <span class="sr-only">(current)</span></a></li>
          <li><a href="#container-summary">简述</a></li>
@@ -106,7 +106,7 @@
           </ul>
         </li>
         <li><a href="#" data-toggle='modal' data-target='#about'>关于</a></li>
-      </ul>      
+      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -234,7 +234,7 @@
     				<h2 class="feature-heading">Mozilla Firefox <span class="text-muted">美丽的狐狸</span></h2>
     				<p class="lead"> Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器， 使用Gecko引擎（非ie内核），支持多种操作系统如Windows、Mac和linux。</p>
     			</div>
-    		</div>	
+    		</div>
     </div>
     <div role="tabpanel" class="tab-pane" id="tab-safari">
     		<div class="row feature">
@@ -245,7 +245,7 @@
     			<div class="col-md-5">
     				<img class="feature-image img-responsive" src="img/safari-logo.jpg" alt="" />
     			</div>
-    		</div>	
+    		</div>
     </div>
     <div role="tabpanel" class="tab-pane" id="tab-opera">
     		<div class="row feature">
@@ -256,7 +256,7 @@
     				<h2 class="feature-heading">Opera<span class="text-muted">小众但易用</span></h2>
     				<p class="lead"> Opera浏览器，是一款挪威Opera Software ASA公司制作的支持多页面标签式浏览的网络浏览器。 是跨平台浏览器可以在Windows、Mac和Linux三个操作系统平台上运行。.</p>
     			</div>
-    		</div>	
+    		</div>
     </div>
     <div role="tabpanel" class="tab-pane" id="tab-ie">
     		<div class="row feature">
@@ -267,14 +267,14 @@
     			<div class="col-md-5">
     				<img class="feature-image img-responsive" src="img/ie-logo.jpg" alt="" />
     			</div>
-    		</div>	
+    		</div>
     </div>
-    
+
   </div>
 	<hr class="divider"/>
 	 <footer>
 	 	<p class="pull-right"><a href="#top">回到顶部</a></p>
-	 	
+
 	 	<p>@2016-By renyongjian</p>
 	 </footer>
 
@@ -296,15 +296,15 @@
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
- 
+
 <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $('#demo-navbar .dropdown-menu a').click(function(){
 	var href=$(this).attr('href');
 	$('#tab-list a[href='+href+']').tab('show')
 })
-	
+
 </script>
 </body>
 </html>
